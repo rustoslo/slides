@@ -170,6 +170,14 @@ Note: Both are available on stable Rust
 
 ---
 
+> QuickCheck and Proptest are similar in many ways: both generate random inputs for a function to check certain properties, and automatically shrink inputs to minimal failing cases.
+>
+> The one big difference is that QuickCheck generates and shrinks values based on type alone, whereas Proptest uses explicit Strategy objects.
+>
+> -- *[README of proptest crate](https://github.com/AltSysrq/proptest/blob/ee53956395492c8172a6d437cb0d2962f6077572/README.md#differences-between-quickcheck-and-proptest)*
+
+---
+
 ## quickcheck
 
 ```
@@ -200,14 +208,6 @@ proptest! {
     }
 }
 ```
-
----
-
-> QuickCheck and Proptest are similar in many ways: both generate random inputs for a function to check certain properties, and automatically shrink inputs to minimal failing cases.
->
-> The one big difference is that QuickCheck generates and shrinks values based on type alone, whereas Proptest uses explicit Strategy objects.
->
-> -- *[README of proptest crate](https://github.com/AltSysrq/proptest/blob/ee53956395492c8172a6d437cb0d2962f6077572/README.md#differences-between-quickcheck-and-proptest)*
 
 ---
 
