@@ -3,3 +3,5 @@
 Actor Model Programming (Mikael Silvén): <https://www.slideshare.net/secret/hMztzIaWI4SkTJ>
 
 Nannou (Erik Vesteraas): [nannou.pdf](nannou.pdf)
+
+Async Rust (Thomas Hartmann): [Presentation](async-rust/presentation.md)
