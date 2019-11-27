@@ -1,0 +1,13 @@
+{
+  "name": "async-rust",
+  "version": "1.0.0",
+  "description": "async rust talk",
+  "scripts": {
+    "start": "reveal-md"
+  },
+  "author": "Thomas Hartmann",
+  "license": "ISC",
+  "devDependencies": {
+    "reveal-md": "^3.0.4"
+  }
+}
