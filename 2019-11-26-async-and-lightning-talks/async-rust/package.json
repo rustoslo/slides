@@ -8,6 +8,6 @@
   "author": "Thomas Hartmann",
   "license": "ISC",
   "devDependencies": {
-    "reveal-md": "^3.0.4"
+    "reveal-md": "^5.4.0"
   }
 }
